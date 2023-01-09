@@ -19,6 +19,7 @@ Conocimientos o recursos necesarios, e información sobre SHARP:
 * [Ajustes de Configuración de entorno](https://www.cairo-lang.org/docs/quickstart.html)
 * También puede seguir David Barreto [Setting Starknet Dev-environment Python](https://medium.com/starknet-edu/setting-up-a-starknet-dev-environment-with-python-e4c61c1e8da6)
 * [Documentación oficial sobre Cairo-SHARP](https://www.cairo-lang.org/docs/sharp.html)
+* [Documentación oficial sobre Starknet-SHARP](https://starknet.io/docs/0.10.0/sharp.html)
 * [Presentación Basecamp Edition January 2023](https://github.com/starknet-edu/basecamp/tree/main/camp_1)
 * [PDF del Basecamp Edition January 2023 LINK](https://docs.google.com/presentation/d/1rjV7nFGuXyIWghbKpIJmOVox8EVbEX974xCHzL4XU5o/edit)
 
