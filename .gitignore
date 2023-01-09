@@ -1,3 +1,4 @@
-/openzeppelin
+# Environments
+openzeppelin/
 .env
-/env
+env/
