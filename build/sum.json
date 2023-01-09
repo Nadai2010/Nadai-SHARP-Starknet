@@ -1,0 +1,925 @@
+{
+    "attributes": [],
+    "builtins": [
+        "output"
+    ],
+    "compiler_version": "0.10.3",
+    "data": [
+        "0x400380007ffc7ffd",
+        "0x482680017ffc8000",
+        "0x1",
+        "0x208b7fff7fff7ffe",
+        "0x40780017fff7fff",
+        "0x1",
+        "0x482a7ffc7ffb8000",
+        "0x40297ffd7fff8000",
+        "0x480a80007fff8000",
+        "0x208b7fff7fff7ffe",
+        "0x40780017fff7fff",
+        "0x0",
+        "0x480680017fff8000",
+        "0x1",
+        "0x480680017fff8000",
+        "0x73",
+        "0x480680017fff8000",
+        "0xf",
+        "0x1104800180018000",
+        "0x800000000000010fffffffffffffffffffffffffffffffffffffffffffffff3",
+        "0x480a7ffd7fff8000",
+        "0x48127ffe7fff8000",
+        "0x1104800180018000",
+        "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffffeb",
+        "0x208b7fff7fff7ffe"
+    ],
+    "debug_info": {
+        "file_contents": {},
+        "instruction_locations": {
+            "0": {
+                "accessible_scopes": [
+                    "starkware.cairo.common.serialize",
+                    "starkware.cairo.common.serialize.serialize_word"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 0,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "starkware.cairo.common.serialize.serialize_word.output_ptr": 1,
+                        "starkware.cairo.common.serialize.serialize_word.word": 0
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 32,
+                    "end_line": 3,
+                    "input_file": {
+                        "filename": "/home/nadai/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/serialize.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 3
+                }
+            },
+            "1": {
+                "accessible_scopes": [
+                    "starkware.cairo.common.serialize",
+                    "starkware.cairo.common.serialize.serialize_word"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 0,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "starkware.cairo.common.serialize.serialize_word.output_ptr": 2,
+                        "starkware.cairo.common.serialize.serialize_word.word": 0
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 36,
+                    "end_line": 4,
+                    "input_file": {
+                        "filename": "/home/nadai/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/serialize.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 38,
+                            "end_line": 2,
+                            "input_file": {
+                                "filename": "/home/nadai/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/serialize.cairo"
+                            },
+                            "parent_location": [
+                                {
+                                    "end_col": 15,
+                                    "end_line": 5,
+                                    "input_file": {
+                                        "filename": "/home/nadai/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/serialize.cairo"
+                                    },
+                                    "start_col": 5,
+                                    "start_line": 5
+                                },
+                                "While trying to retrieve the implicit argument 'output_ptr' in:"
+                            ],
+                            "start_col": 21,
+                            "start_line": 2
+                        },
+                        "While expanding the reference 'output_ptr' in:"
+                    ],
+                    "start_col": 22,
+                    "start_line": 4
+                }
+            },
+            "3": {
+                "accessible_scopes": [
+                    "starkware.cairo.common.serialize",
+                    "starkware.cairo.common.serialize.serialize_word"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 0,
+                        "offset": 1
+                    },
+                    "reference_ids": {
+                        "starkware.cairo.common.serialize.serialize_word.output_ptr": 2,
+                        "starkware.cairo.common.serialize.serialize_word.word": 0
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 15,
+                    "end_line": 5,
+                    "input_file": {
+                        "filename": "/home/nadai/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/serialize.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 5
+                }
+            },
+            "4": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.sum_three_nums"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.sum_three_nums.num1": 3,
+                        "__main__.sum_three_nums.num2": 4,
+                        "__main__.sum_three_nums.num3": 5
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 14,
+                    "end_line": 6,
+                    "input_file": {
+                        "filename": "src/sum.cairo"
+                    },
+                    "start_col": 1,
+                    "start_line": 6
+                }
+            },
+            "6": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.sum_three_nums"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 1
+                    },
+                    "reference_ids": {
+                        "__main__.sum_three_nums.num1": 3,
+                        "__main__.sum_three_nums.num2": 4,
+                        "__main__.sum_three_nums.num3": 5
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 24,
+                    "end_line": 7,
+                    "input_file": {
+                        "filename": "src/sum.cairo"
+                    },
+                    "start_col": 13,
+                    "start_line": 7
+                }
+            },
+            "7": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.sum_three_nums"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 2
+                    },
+                    "reference_ids": {
+                        "__main__.sum_three_nums.__temp0": 6,
+                        "__main__.sum_three_nums.num1": 3,
+                        "__main__.sum_three_nums.num2": 4,
+                        "__main__.sum_three_nums.num3": 5
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 32,
+                    "end_line": 7,
+                    "input_file": {
+                        "filename": "src/sum.cairo"
+                    },
+                    "start_col": 1,
+                    "start_line": 7
+                }
+            },
+            "8": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.sum_three_nums"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 2
+                    },
+                    "reference_ids": {
+                        "__main__.sum_three_nums.__temp0": 6,
+                        "__main__.sum_three_nums.num1": 3,
+                        "__main__.sum_three_nums.num2": 4,
+                        "__main__.sum_three_nums.num3": 5,
+                        "__main__.sum_three_nums.sum": 7
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 10,
+                    "end_line": 7,
+                    "input_file": {
+                        "filename": "src/sum.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 16,
+                            "end_line": 8,
+                            "input_file": {
+                                "filename": "src/sum.cairo"
+                            },
+                            "start_col": 13,
+                            "start_line": 8
+                        },
+                        "While expanding the reference 'sum' in:"
+                    ],
+                    "start_col": 7,
+                    "start_line": 7
+                }
+            },
+            "9": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.sum_three_nums"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 3
+                    },
+                    "reference_ids": {
+                        "__main__.sum_three_nums.__temp0": 6,
+                        "__main__.sum_three_nums.num1": 3,
+                        "__main__.sum_three_nums.num2": 4,
+                        "__main__.sum_three_nums.num3": 5,
+                        "__main__.sum_three_nums.sum": 7
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 18,
+                    "end_line": 8,
+                    "input_file": {
+                        "filename": "src/sum.cairo"
+                    },
+                    "start_col": 1,
+                    "start_line": 8
+                }
+            },
+            "10": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.main.output_ptr": 8
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 14,
+                    "end_line": 12,
+                    "input_file": {
+                        "filename": "src/sum.cairo"
+                    },
+                    "start_col": 1,
+                    "start_line": 12
+                }
+            },
+            "12": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.main.output_ptr": 8
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 37,
+                    "end_line": 17,
+                    "input_file": {
+                        "filename": "src/sum.cairo"
+                    },
+                    "start_col": 33,
+                    "start_line": 17
+                }
+            },
+            "14": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 1
+                    },
+                    "reference_ids": {
+                        "__main__.main.output_ptr": 8
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 48,
+                    "end_line": 17,
+                    "input_file": {
+                        "filename": "src/sum.cairo"
+                    },
+                    "start_col": 44,
+                    "start_line": 17
+                }
+            },
+            "16": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 2
+                    },
+                    "reference_ids": {
+                        "__main__.main.output_ptr": 8
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 59,
+                    "end_line": 17,
+                    "input_file": {
+                        "filename": "src/sum.cairo"
+                    },
+                    "start_col": 55,
+                    "start_line": 17
+                }
+            },
+            "18": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 3
+                    },
+                    "reference_ids": {
+                        "__main__.main.output_ptr": 8
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 60,
+                    "end_line": 17,
+                    "input_file": {
+                        "filename": "src/sum.cairo"
+                    },
+                    "start_col": 13,
+                    "start_line": 17
+                }
+            },
+            "20": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 8
+                    },
+                    "reference_ids": {
+                        "__main__.main.output_ptr": 8,
+                        "__main__.main.sum": 9
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 28,
+                    "end_line": 11,
+                    "input_file": {
+                        "filename": "src/sum.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 38,
+                            "end_line": 2,
+                            "input_file": {
+                                "filename": "/home/nadai/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/serialize.cairo"
+                            },
+                            "parent_location": [
+                                {
+                                    "end_col": 20,
+                                    "end_line": 18,
+                                    "input_file": {
+                                        "filename": "src/sum.cairo"
+                                    },
+                                    "start_col": 1,
+                                    "start_line": 18
+                                },
+                                "While trying to retrieve the implicit argument 'output_ptr' in:"
+                            ],
+                            "start_col": 21,
+                            "start_line": 2
+                        },
+                        "While expanding the reference 'output_ptr' in:"
+                    ],
+                    "start_col": 11,
+                    "start_line": 11
+                }
+            },
+            "21": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 9
+                    },
+                    "reference_ids": {
+                        "__main__.main.output_ptr": 8,
+                        "__main__.main.sum": 9
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 9,
+                    "end_line": 17,
+                    "input_file": {
+                        "filename": "src/sum.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 19,
+                            "end_line": 18,
+                            "input_file": {
+                                "filename": "src/sum.cairo"
+                            },
+                            "start_col": 16,
+                            "start_line": 18
+                        },
+                        "While expanding the reference 'sum' in:"
+                    ],
+                    "start_col": 6,
+                    "start_line": 17
+                }
+            },
+            "22": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 10
+                    },
+                    "reference_ids": {
+                        "__main__.main.output_ptr": 8,
+                        "__main__.main.sum": 9
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 20,
+                    "end_line": 18,
+                    "input_file": {
+                        "filename": "src/sum.cairo"
+                    },
+                    "start_col": 1,
+                    "start_line": 18
+                }
+            },
+            "24": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 13
+                    },
+                    "reference_ids": {
+                        "__main__.main.output_ptr": 10,
+                        "__main__.main.sum": 9
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 11,
+                    "end_line": 19,
+                    "input_file": {
+                        "filename": "src/sum.cairo"
+                    },
+                    "start_col": 1,
+                    "start_line": 19
+                }
+            }
+        }
+    },
+    "hints": {},
+    "identifiers": {
+        "__main__.main": {
+            "decorators": [],
+            "pc": 10,
+            "type": "function"
+        },
+        "__main__.main.Args": {
+            "full_name": "__main__.main.Args",
+            "members": {},
+            "size": 0,
+            "type": "struct"
+        },
+        "__main__.main.ImplicitArgs": {
+            "full_name": "__main__.main.ImplicitArgs",
+            "members": {
+                "output_ptr": {
+                    "cairo_type": "felt*",
+                    "offset": 0
+                }
+            },
+            "size": 1,
+            "type": "struct"
+        },
+        "__main__.main.NUM1": {
+            "type": "const",
+            "value": 1
+        },
+        "__main__.main.NUM2": {
+            "type": "const",
+            "value": 115
+        },
+        "__main__.main.NUM3": {
+            "type": "const",
+            "value": 15
+        },
+        "__main__.main.Return": {
+            "cairo_type": "()",
+            "type": "type_definition"
+        },
+        "__main__.main.SIZEOF_LOCALS": {
+            "type": "const",
+            "value": 0
+        },
+        "__main__.main.output_ptr": {
+            "cairo_type": "felt*",
+            "full_name": "__main__.main.output_ptr",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 2,
+                        "offset": 0
+                    },
+                    "pc": 10,
+                    "value": "[cast(fp + (-3), felt**)]"
+                },
+                {
+                    "ap_tracking_data": {
+                        "group": 2,
+                        "offset": 13
+                    },
+                    "pc": 24,
+                    "value": "[cast(ap + (-1), felt**)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.main.sum": {
+            "cairo_type": "felt",
+            "full_name": "__main__.main.sum",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 2,
+                        "offset": 8
+                    },
+                    "pc": 20,
+                    "value": "[cast(ap + (-1), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.serialize_word": {
+            "destination": "starkware.cairo.common.serialize.serialize_word",
+            "type": "alias"
+        },
+        "__main__.sum_three_nums": {
+            "decorators": [],
+            "pc": 4,
+            "type": "function"
+        },
+        "__main__.sum_three_nums.Args": {
+            "full_name": "__main__.sum_three_nums.Args",
+            "members": {
+                "num1": {
+                    "cairo_type": "felt",
+                    "offset": 0
+                },
+                "num2": {
+                    "cairo_type": "felt",
+                    "offset": 1
+                },
+                "num3": {
+                    "cairo_type": "felt",
+                    "offset": 2
+                }
+            },
+            "size": 3,
+            "type": "struct"
+        },
+        "__main__.sum_three_nums.ImplicitArgs": {
+            "full_name": "__main__.sum_three_nums.ImplicitArgs",
+            "members": {},
+            "size": 0,
+            "type": "struct"
+        },
+        "__main__.sum_three_nums.Return": {
+            "cairo_type": "(sum: felt)",
+            "type": "type_definition"
+        },
+        "__main__.sum_three_nums.SIZEOF_LOCALS": {
+            "type": "const",
+            "value": 1
+        },
+        "__main__.sum_three_nums.__temp0": {
+            "cairo_type": "felt",
+            "full_name": "__main__.sum_three_nums.__temp0",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 1,
+                        "offset": 2
+                    },
+                    "pc": 7,
+                    "value": "[cast(ap + (-1), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.sum_three_nums.num1": {
+            "cairo_type": "felt",
+            "full_name": "__main__.sum_three_nums.num1",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 1,
+                        "offset": 0
+                    },
+                    "pc": 4,
+                    "value": "[cast(fp + (-5), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.sum_three_nums.num2": {
+            "cairo_type": "felt",
+            "full_name": "__main__.sum_three_nums.num2",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 1,
+                        "offset": 0
+                    },
+                    "pc": 4,
+                    "value": "[cast(fp + (-4), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.sum_three_nums.num3": {
+            "cairo_type": "felt",
+            "full_name": "__main__.sum_three_nums.num3",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 1,
+                        "offset": 0
+                    },
+                    "pc": 4,
+                    "value": "[cast(fp + (-3), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.sum_three_nums.sum": {
+            "cairo_type": "felt",
+            "full_name": "__main__.sum_three_nums.sum",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 1,
+                        "offset": 2
+                    },
+                    "pc": 8,
+                    "value": "[cast(fp, felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "starkware.cairo.common.serialize.serialize_word": {
+            "decorators": [],
+            "pc": 0,
+            "type": "function"
+        },
+        "starkware.cairo.common.serialize.serialize_word.Args": {
+            "full_name": "starkware.cairo.common.serialize.serialize_word.Args",
+            "members": {
+                "word": {
+                    "cairo_type": "felt",
+                    "offset": 0
+                }
+            },
+            "size": 1,
+            "type": "struct"
+        },
+        "starkware.cairo.common.serialize.serialize_word.ImplicitArgs": {
+            "full_name": "starkware.cairo.common.serialize.serialize_word.ImplicitArgs",
+            "members": {
+                "output_ptr": {
+                    "cairo_type": "felt*",
+                    "offset": 0
+                }
+            },
+            "size": 1,
+            "type": "struct"
+        },
+        "starkware.cairo.common.serialize.serialize_word.Return": {
+            "cairo_type": "()",
+            "type": "type_definition"
+        },
+        "starkware.cairo.common.serialize.serialize_word.SIZEOF_LOCALS": {
+            "type": "const",
+            "value": 0
+        },
+        "starkware.cairo.common.serialize.serialize_word.output_ptr": {
+            "cairo_type": "felt*",
+            "full_name": "starkware.cairo.common.serialize.serialize_word.output_ptr",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 0,
+                        "offset": 0
+                    },
+                    "pc": 0,
+                    "value": "[cast(fp + (-4), felt**)]"
+                },
+                {
+                    "ap_tracking_data": {
+                        "group": 0,
+                        "offset": 0
+                    },
+                    "pc": 1,
+                    "value": "cast([fp + (-4)] + 1, felt*)"
+                }
+            ],
+            "type": "reference"
+        },
+        "starkware.cairo.common.serialize.serialize_word.word": {
+            "cairo_type": "felt",
+            "full_name": "starkware.cairo.common.serialize.serialize_word.word",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 0,
+                        "offset": 0
+                    },
+                    "pc": 0,
+                    "value": "[cast(fp + (-3), felt*)]"
+                }
+            ],
+            "type": "reference"
+        }
+    },
+    "main_scope": "__main__",
+    "prime": "0x800000000000011000000000000000000000000000000000000000000000001",
+    "reference_manager": {
+        "references": [
+            {
+                "ap_tracking_data": {
+                    "group": 0,
+                    "offset": 0
+                },
+                "pc": 0,
+                "value": "[cast(fp + (-3), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 0,
+                    "offset": 0
+                },
+                "pc": 0,
+                "value": "[cast(fp + (-4), felt**)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 0,
+                    "offset": 0
+                },
+                "pc": 1,
+                "value": "cast([fp + (-4)] + 1, felt*)"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 1,
+                    "offset": 0
+                },
+                "pc": 4,
+                "value": "[cast(fp + (-5), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 1,
+                    "offset": 0
+                },
+                "pc": 4,
+                "value": "[cast(fp + (-4), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 1,
+                    "offset": 0
+                },
+                "pc": 4,
+                "value": "[cast(fp + (-3), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 1,
+                    "offset": 2
+                },
+                "pc": 7,
+                "value": "[cast(ap + (-1), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 1,
+                    "offset": 2
+                },
+                "pc": 8,
+                "value": "[cast(fp, felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 2,
+                    "offset": 0
+                },
+                "pc": 10,
+                "value": "[cast(fp + (-3), felt**)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 2,
+                    "offset": 8
+                },
+                "pc": 20,
+                "value": "[cast(ap + (-1), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 2,
+                    "offset": 13
+                },
+                "pc": 24,
+                "value": "[cast(ap + (-1), felt**)]"
+            }
+        ]
+    }
+}
