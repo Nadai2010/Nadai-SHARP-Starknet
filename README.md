@@ -22,6 +22,7 @@ Conocimientos o recursos necesarios, e información sobre SHARP:
 * [Presentación Basecamp Edition January 2023](https://github.com/starknet-edu/basecamp/tree/main/camp_1)
 * [PDF del Basecamp Edition January 2023 LINK](https://docs.google.com/presentation/d/1rjV7nFGuXyIWghbKpIJmOVox8EVbEX974xCHzL4XU5o/edit)
 
+---
 
 ## Pruebas con Sharp
 
@@ -35,7 +36,9 @@ Haremos el compile de un contrato que tenemos preparado como [sum.cairo](/src/su
 * Verifier: Contrato inteligente en L1 que verifica la prueba de validez enviada por el Prover
 * Fact Registry: contrato inteligente que almacena las pruebas que se han verificado con éxito
 
-Ahora que entedemos mejor SHARP, deberemos ajustar nuestra configuración de entorno, usaremos desde nuestra terminal:
+---
+
+Ahora que entendemos mejor SHARP, deberemos ajustar nuestra configuración de entorno, usaremos desde nuestra terminal:
 
 ```bash
 python3.9 -m venv ~/cairo_venv
@@ -59,6 +62,7 @@ cairo-run --program build/sum.json --print_output --layout=small
 
 ![Graph](/im%C3%A1genes/run.png)
 
+
 Luego haremos el submit sharp, que nos ejecutará una serie de pasos hasta subir el programa o código, y nos dará un `Job key` y un `Fact`. Podemos consultar su estado para verificar que ha sido aceptada, ya que mientras esté en proceso no podremos verificar la vericidad de la prueba, esto suele llevar algunos minutos por parte del SHARP.
 
 ```bash
@@ -77,6 +81,7 @@ cairo-sharp status 1e1ec39a-4ebe-48a8-9273-0b2aa1542c9a
 ![Graph](/im%C3%A1genes/progres.png)
 ![Graph](/im%C3%A1genes/ok.png)
 
+---
 
 ## RCP de Alchemy 
 
