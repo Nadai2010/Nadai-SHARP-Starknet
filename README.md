@@ -1,4 +1,4 @@
-## Nadai SHARP
+# Nadai SHARP
 
 ## ¿Qué es SHARP?
 
@@ -8,7 +8,7 @@ Cuando se envía un programa Cairo a SHARP, este utiliza un proceso denominado `
 
 SHARP ofrece una interfaz de línea de comandos `(cairo-sharp)` y un API para facilitar el envío y la consulta de programas. Los usuarios pueden utilizar estas herramientas para enviar sus programas a SHARP y recibir actualizaciones sobre el progreso de la verificación. Una vez que un programa ha sido verificado y registrado en la blockchain, puede ser ejecutado de manera segura y confiable por cualquier persona que tenga acceso a la blockchain.
 
-* [Graph](/im%C3%A1genes/architecture.png)
+![Graph](/im%C3%A1genes/architecture.png)
 
 SHARP es una plataforma valiosa para garantizar la seguridad y la verificabilidad de los contratos inteligentes escritos en Cairo. Su uso aumenta a medida que se desarrollen más aplicaciones basadas en el lenguaje. Sin embargo, es importante tener en cuenta que, en su forma actual, SHARP es un servicio centralizado que actúa como intermediario entre los programas Cairo y la blockchain. 
 
@@ -28,8 +28,8 @@ Conocimientos o recursos necesarios, e información sobre SHARP:
 
 Haremos el compile de un contrato que tenemos premarado como [sum.cairo](/src/sum.cairo) el cual le haremos una prueba inicial para ve que nos imprime el resultado correcto, pero primero veamos unas fotos de como SHARP funciona y el trabajo que nos resuevle.
 
-* [Graph](/im%C3%A1genes/donttrust.png)
-* [Graph](/im%C3%A1genes/trust.png)
+![Graph](/im%C3%A1genes/donttrust.png)
+![Graph](/im%C3%A1genes/trust.png)
 
 * Sequencer: Calida, agrupa y ejecuta transacciones
 * Prover: Crea una prueba que certifica que el nuevo estado global es el resultado de ejecutar todas las transacciones en un bloque
@@ -43,7 +43,7 @@ python3.9 -m venv ~/cairo_venv
 source ~/cairo_venv/bin/activate
 ```
 
-* [Graph](/im%C3%A1genes/env.png)
+![Graph](/im%C3%A1genes/env.png)
 
 
 Luego si hemos clonado esta repo no nos hara falta crear el contrato, sino, debera de crear una carpeta `src` y otra `build` en el que le indicaremos con el siguiente comando en la terminal la salida del compile en `.json`.
@@ -58,7 +58,7 @@ Si todo ha ido bien se debería crea un archivo `sum.json` en nuestra carpeta de
 cairo-run --program build/sum.json --print_output --layout=small
 ```
 
-* [Graph](/im%C3%A1genes/run.png)
+![Graph](/im%C3%A1genes/run.png)
 
 Luego haremos el submit sharp, que nos ejecutará una serie de pasos hasta subir el programa o código, y nos dará un `Job key` y un `Fact`. Podemos consultar su estado para verificar que ha sido aceptada, ya que mientras esté en proceso no podremos verificar la vericidad de la prueba, esto suele llevar algunos minutos por parte del SHARP.
 
@@ -66,7 +66,7 @@ Luego haremos el submit sharp, que nos ejecutará una serie de pasos hasta subir
 cairo-sharp submit --source src/sum.cairo
 ```
 
-* [Graph](/im%C3%A1genes/submit.png)
+![Graph](/im%C3%A1genes/submit.png)
 
 
 Que podremos verficar el estado con el `Job-key` hasta que veamos que cambió su estado usando desde el terminal:
@@ -75,16 +75,16 @@ Que podremos verficar el estado con el `Job-key` hasta que veamos que cambió su
 cairo-sharp status 1e1ec39a-4ebe-48a8-9273-0b2aa1542c9a
 ```
 
-* [Graph](/im%C3%A1genes/progres.png)
-* [Graph](/im%C3%A1genes/ok.png)
+![Graph](/im%C3%A1genes/progres.png)
+![Graph](/im%C3%A1genes/ok.png)
 
 
 ## RCP de Alchemy 
 
 En este paso creamos nuestro propio rcp para no tener que depender de llamadas de nadie, aunque podria usar cualqueir rcp,usaremos directamente de nuestro nodo así podemos verficar el estado de la prueba, para ello deberemos de crear una cuenta en [Alchemy](https://auth.alchemy.com/), después de hacer el registro podremos crear su propia App con ajustes de Goerli y copiar la dirección de rcp de su nodo que usaremos una vez haya sido aceptada la prueba, fíjese en la siguiente foto y recuerdo que todos estos datos sensibles al final sólo son en entornos de pruebas.
 
-* [Graph](/im%C3%A1genes/app.png)
-* [Graph](/im%C3%A1genes/api.png)
+![Graph](/im%C3%A1genes/app.png)
+![Graph](/im%C3%A1genes/api.png)
  
  Y una vez aceptada la prueba podremos verifcarla usando el siguiente comando.
 
@@ -92,11 +92,11 @@ En este paso creamos nuestro propio rcp para no tener que depender de llamadas d
 cairo-sharp is_verified 0x908f30889da7846d2051b189322802dde73e55cb1d34eb4ae892fb4d04d71376 --node_url https://eth-goerli.g.alchemy.com/v2/zbIXJ9iA7vvwIJH9DagNh_4LSYhId9mW
 ```
 
-* [Graph](/im%C3%A1genes/verified.png)
+![Graph](/im%C3%A1genes/verified.png)
 
 Puede verificar el estado de su prueba ha sido correcta desde [aquí](https://goerli.etherscan.io/address/0xAB43bA48c9edF4C2C4bB01237348D1D7B28ef168#readProxyContract#F5), podra revisar que su prueba ha sido aceptada.
 
-* [Graph](/im%C3%A1genes/true.png)
+![Graph](/im%C3%A1genes/true.png)
 
 
 ## Comandos CLI
