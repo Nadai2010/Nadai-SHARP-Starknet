@@ -25,12 +25,12 @@ Conocimientos o recursos necesarios, e información sobre SHARP:
 
 ## Pruebas con Sharp
 
-Haremos el compile de un contrato que tenemos premarado como [sum.cairo](/src/sum.cairo) el cual le haremos una prueba inicial para ve que nos imprime el resultado correcto, pero primero veamos unas fotos de como SHARP funciona y el trabajo que nos resuevle.
+Haremos el compile de un contrato que tenemos preparado como [sum.cairo](/src/sum.cairo) el cual le haremos una prueba inicial para ve que nos imprima el resultado correcto, pero primero veamos unas fotos de como SHARP funciona y el trabajo que nos resuevle.
 
 ![Graph](/im%C3%A1genes/donttrust.png)
 ![Graph](/im%C3%A1genes/trust.png)
 
-* Sequencer: Calida, agrupa y ejecuta transacciones
+* Sequencer: Valida, agrupa y ejecuta transacciones
 * Prover: Crea una prueba que certifica que el nuevo estado global es el resultado de ejecutar todas las transacciones en un bloque
 * Verifier: Contrato inteligente en L1 que verifica la prueba de validez enviada por el Prover
 * Fact Registry: contrato inteligente que almacena las pruebas que se han verificado con éxito
