@@ -1,4 +1,11 @@
-# Nadai SHARP
+
+<div align="center">
+  <h1 style="font-size: larger;">
+    <img src="https://media2.giphy.com/media/9x55tYxEVrI04pKHl1/giphy.gif" width="80">
+    <strong> Nadai SHARP </strong> 
+    <img src="imágenes/Starknet.png" width="60">
+  </h1>
+</div>
 
 ## ¿Qué es SHARP?
 
@@ -84,9 +91,9 @@ cairo-sharp status 1e1ec39a-4ebe-48a8-9273-0b2aa1542c9a
 
 ---
 
-## RCP de Alchemy 
+## RPC de Alchemy 
 
-En este paso creamos nuestro propio rcp para no tener que depender de llamadas de nadie, aunque podria usar cualqueir rcp,usaremos directamente de nuestro nodo así podemos verficar el estado de la prueba, para ello deberemos de crear una cuenta en [Alchemy](https://auth.alchemy.com/), después de hacer el registro podremos crear su propia App con ajustes de Goerli y copiar la dirección de rcp de su nodo que usaremos una vez haya sido aceptada la prueba, fíjese en la siguiente foto y recuerdo que todos estos datos sensibles al final sólo son en entornos de pruebas.
+En este paso creamos nuestro propio rpc para no tener que depender de llamadas de nadie, aunque podria usar cualquier rpc, usaremos directamente de nuestro nodo así podemos verficar el estado de la prueba, para ello deberemos de crear una cuenta en [Alchemy](https://auth.alchemy.com/), después de hacer el registro podremos crear su propia App con ajustes de Goerli y copiar la dirección de rpc de su nodo que usaremos una vez haya sido aceptada la prueba, fíjese en la siguiente foto y recuerdo que todos estos datos sensibles al final sólo son en entornos de pruebas.
 
 ![Graph](/im%C3%A1genes/app.png)
 ![Graph](/im%C3%A1genes/api.png)
